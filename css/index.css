@@ -1,0 +1,151 @@
+*{margin: 0px; padding: 0px;}
+
+.chat-box-outer{
+    width: 320px;
+    height: 470px;
+    margin: 30px auto;
+    background-color: lightblue;
+    border: 2px solid black;
+    border-radius: 5%;
+}
+.chat-box-inner{
+    width: 300px;
+    height: 450px;
+    margin: 10px;
+    background-color:hsl(194, 41%, 84%);
+    border-radius: 2%;
+    box-sizing: border-box;
+}
+
+#title{
+    width: 94%;
+    height: 30px;
+    margin: 0 3%;
+    text-align: center;
+    font-size: 15px;
+    line-height: 30px;
+    border-bottom: 1.5px dashed rgb(106, 142, 190) ;
+    
+    
+}
+.chat-content{
+    
+    width: 94%;
+    height: 365px;
+    margin: 4px 3%;
+    border: 1px solid black;
+    border-radius: 1.5%;
+    overflow: overlay;
+    background-color: rgb(208, 243, 239, 0.7);
+}
+.chat-box-bottom{
+    width: 94%;
+    height: 30px;
+    margin: 7px auto;
+}
+.content-input{
+    width: 210px;
+    height: 25px;
+    resize: none;
+    float: left;
+    margin-right: 10px;
+    line-height: 25px;
+    text-indent: 3px;
+    border-radius: 5%;
+    font-size: 15px;
+    background-color: rgb(214, 228, 226);
+}
+.send-btn{
+    float: right;
+    width: 60px;
+    height: 30px;
+    color: white;
+    background-color: rgb(49, 166, 107);
+    border-radius: 10%;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    user-select: none;
+}
+
+
+.content-block-left{
+    width: auto;
+    height: auto; 
+    margin: 20px 10px;
+    box-sizing: border-box;
+    display: none;
+}
+
+.head-sculpture-left{
+    float: left;
+    width: 30px; height: 30px; 
+    background-image: url(../img/tuling.png);
+    border-radius: 50%;
+    cursor: pointer;
+}
+.chat-record-left{
+    height: auto;
+    width: auto;
+    min-width: 30px;
+    max-width: 150px;
+    margin-top: 10px;
+    margin-left: 35px;
+}
+.name-left{
+    width: auto;
+    height: 20px;
+    text-indent: 7px;
+    font-size: 13px;
+}
+.message-left{
+    height: auto;
+    width: auto;
+    padding: 10px;
+    padding-top: 5px;
+    background-color: rgb(186, 218, 214);
+    border-radius:10% ;
+    
+}
+
+.content-block-right{
+    width: auto;
+    height: auto; 
+    margin: 10px 10px;
+    margin-left: 74px;
+    box-sizing: border-box;
+    display: none;
+}
+.head-sculpture-right{
+    float: right;
+    width: 30px; height: 30px; 
+    background-image: url(../img/endless_daydreaming.jpg);
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.chat-record-right{
+    height: auto;
+    width: auto;
+    min-width: 30px;
+    max-width: 150px;
+    /* margin-top: 10px; */
+    margin-right: 7px;
+}
+.name-right{
+    width: auto;
+    height: 20px;
+    text-align: right;
+    font-size: 13px;
+    margin-right: 5px;
+    
+}
+.message-right{
+    height: auto;
+    width: auto;
+    padding: 10px;
+    /* padding-top: 5px; */
+    background-color: rgb(186, 218, 214);
+    border-radius:10% ;
+    
+}
